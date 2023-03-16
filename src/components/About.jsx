@@ -40,7 +40,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
 
       <motion.p
@@ -50,7 +50,19 @@ const About = () => {
         I'm a self-driven, independent learner with a keen interest in web
         engineering and AI, familiar with modern web development technologies
         and able to quickly learn and adapt to new programming languages and
-        frameworks.
+        frameworks. At the moment, I'm studying a double major in Computer
+        Science and Business Administration, as well as being a research
+        assistant in an AI research group at Universidad Carlos III de Madrid.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        In my free time I play the piano (I have played it professionally for
+        several years!) and am learning to play guitar. I sometimes take my
+        camera out and do some photography as well. Also, I'm a fan of indie
+        videogames!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

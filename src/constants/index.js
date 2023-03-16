@@ -16,8 +16,8 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  caos,
+  start,
   shopify,
   carrent,
   jobit,
@@ -38,6 +38,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume",
+    title: "Resume",
+  },
 ];
 
 const services = [
@@ -46,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Research Assistant",
     icon: mobile,
   },
   {
@@ -54,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Creative Artist",
     icon: creator,
   },
 ];
@@ -81,10 +85,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -97,132 +97,83 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "AI Research Assistant",
+    company_name: "Control Learning and Systems Optimization Group",
+    icon: caos,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining tools for advanced driver-assistant systems.",
+      "Collaborating with professors and researchers to help develop improved computer vision algorithms.",
+      "Implementing efficient and reliable deep learning algorithms to use in critical driving situations.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Start UC3M",
+    icon: start,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using HTML5, CSS3 and JavaScript.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create amazing events.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Audio Production Teacher",
+    company_name: "Private Lessons",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Feb 2019 - May 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Taught private lessons of the basics of audio production in Ableton Live.",
+      "Helped creative artists achieve their goals through the use of digital audio workstations.",
+      "Laid the foundations for learning advanced audio mixing and mastering techniques.",
+    ],
+  },
+  {
+    title: "Pianist",
+    company_name: "Conservatorio Profesional de Música Rodolfo Halffter",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "Sep 2018 - May 2021",
+    points: [
+      "Developed an extensive repertoire of classical musical pieces.",
+      "Gave quarterly recitals in collaboration with fellow musicians.",
+      "Leaded the school choir along with teachers and gave annual concerts.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "HelpMap",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An interactive map of war-affected areas that shows events and resources to civilians near the location.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
         color: "green-text-gradient",
       },
       {
@@ -230,8 +181,46 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: carrent,
+    source_code_link: "https://github.com/dascruz/helpmap/",
+  },
+  {
+    name: "Super Mario Bros Revisited",
+    description:
+      "A Super Mario Bros level 1-1 clone made with Python and Pyxel game engine.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pyxel",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/dascruz/mario-bros-revisited/",
+  },
+  {
+    name: "Tech Blog",
+    description:
+      "A technical blog on my learning journey of software engineering and deep learning .",
+    tags: [
+      {
+        name: "hugo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "git",
+        color: "green-text-gradient",
+      },
+      {
+        name: "markdown",
+        color: "pink-text-gradient",
+      },
+    ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dascruz/dascruz.github.io/",
   },
 ];
 
