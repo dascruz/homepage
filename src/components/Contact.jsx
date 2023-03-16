@@ -74,8 +74,8 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact me</h3>
-
-        <form
+        <a href="mailto: dscruz.dev@gmail.com">Click to send an email!</a>
+        {/* <form
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
@@ -124,7 +124,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-        </form>
+        </form> */}
       </motion.div>
 
       <motion.div

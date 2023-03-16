@@ -60,6 +60,24 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          <li
+            key="resume"
+            className={`font-poppins font-medium cursor-pointer text-[18px] border-double ${
+              active === "Resume" ? "text-white" : "text-secondary"
+            }`}
+            onClick={() => {
+              setToggle(!toggle);
+              setActive("Resume");
+            }}
+          >
+            <a
+              href="https://drive.google.com/file/d/1tiKH2hM85BXhzEZH-AYFS-KiUGgVUurS/view?usp=share_link"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -90,6 +108,21 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              <li
+                key="resume"
+                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  active === "Resume" ? "text-white" : "text-secondary"
+                }`}
+                onClick={() => {
+                  setToggle(!toggle);
+                  setActive("Resume");
+                }}
+              >
+                <a href="https://drive.google.com/file/d/1tiKH2hM85BXhzEZH-AYFS-KiUGgVUurS/view?usp=share_link">
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
