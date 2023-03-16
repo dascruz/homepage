@@ -17,11 +17,13 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             <span className="text-[24px] mr-3">Hi, I'm</span>
-            <span className="text-[#915EFF]">Daniel</span>
+            <span class="bg-gradient-to-br from-blue-500 to-violet-500 bg-clip-text text-transparent box-decoration-clone">
+              Daniel
+            </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I build web applications <br className="sm:block hidden" />
-            and train neural networks
+            and train neural networks.
           </p>
         </div>
       </div>
