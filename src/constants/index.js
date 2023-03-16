@@ -8,21 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   piano,
   caos,
   start,
   prod,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  helpmap,
+  mario,
+  blog,
 } from "../assets";
 
 export const navLinks = [
@@ -181,7 +177,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: helpmap,
     source_code_link: "https://github.com/dascruz/helpmap/",
   },
   {
@@ -198,7 +194,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: mario,
     source_code_link: "https://github.com/dascruz/mario-bros-revisited/",
   },
   {
@@ -219,7 +215,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: blog,
     source_code_link: "https://github.com/dascruz/dascruz.github.io/",
   },
 ];
