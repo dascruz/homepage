@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
+  piano,
   caos,
   start,
-  shopify,
+  prod,
   carrent,
   jobit,
   tripguide,
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: "Audio Production Teacher",
     company_name: "Private Lessons",
-    icon: shopify,
+    icon: prod,
     iconBg: "#383E56",
     date: "Feb 2019 - May 2021",
     points: [
@@ -143,11 +143,11 @@ const experiences = [
   {
     title: "Pianist",
     company_name: "Conservatorio Profesional de Música Rodolfo Halffter",
-    icon: meta,
+    icon: piano,
     iconBg: "#383E56",
     date: "Sep 2018 - May 2021",
     points: [
-      "Developed an extensive repertoire of classical musical pieces.",
+      "Developed an extensive repertoire of classical music pieces.",
       "Gave quarterly recitals in collaboration with fellow musicians.",
       "Leaded the school choir along with teachers and gave annual concerts.",
     ],

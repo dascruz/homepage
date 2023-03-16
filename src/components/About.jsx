@@ -60,7 +60,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         In my free time I play the piano (I have played it professionally for
-        several years!) and am learning to play guitar. I sometimes take my
+        several years!) and I'm learning to play the guitar. I sometimes take my
         camera out and do some photography as well. Also, I'm a fan of indie
         videogames!
       </motion.p>
