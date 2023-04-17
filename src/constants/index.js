@@ -96,18 +96,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "AI Research Assistant",
-    company_name: "Control Learning and Systems Optimization Group",
-    icon: caos,
-    iconBg: "#383E56",
-    date: "March 2023 - Present",
-    points: [
-      "Developing and maintaining tools for advanced driver-assistant systems.",
-      "Collaborating with professors and researchers to help develop improved computer vision algorithms.",
-      "Implementing efficient and reliable deep learning algorithms to use in critical driving situations.",
-    ],
-  },
-  {
     title: "Web Developer",
     company_name: "Start UC3M",
     icon: start,
