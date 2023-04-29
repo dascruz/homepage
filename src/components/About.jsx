@@ -49,8 +49,7 @@ const About = () => {
       >
         I'm a self-driven, independent learner with substantial hands-on experience in software engineering,
         familiar with modern web development technologies and able to quickly learn and adapt to new
-        programming languages and frameworks.<br></br>
-        At the moment, I'm studying a double degree in Computer
+        programming languages and frameworks. At the moment, I'm studying a double degree in Computer
         Science and Business Administration at Universidad Carlos III de Madrid.
       </motion.p>
 
