@@ -13,7 +13,6 @@ import {
   mongodb,
   git,
   piano,
-  caos,
   start,
   prod,
   helpmap,
@@ -42,7 +41,7 @@ const services = [
     icon: web,
   },
   {
-    title: "AI Research Assistant",
+    title: "Data Engineer",
     icon: mobile,
   },
   {
@@ -102,10 +101,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Oct 2022 - Present",
     points: [
-      "Developing and maintaining web applications using HTML5, CSS3 and JavaScript.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create amazing events.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained 3+ websites using HTML5, CSS3 and JavaScript.",
+      "Collaborated with 5+ cross-functional teams including marketing, finance, and other developers to create amazing events.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+      "Participated in code reviews providing constructive feedback to other developers.",
     ],
   },
   {
@@ -116,7 +115,7 @@ const experiences = [
     date: "Feb 2019 - May 2021",
     points: [
       "Taught private lessons of the basics of audio production in Ableton Live.",
-      "Helped creative artists achieve their goals through the use of digital audio workstations.",
+      "Helped 3+ creative artists achieve their goals through the use of digital audio workstations.",
       "Laid the foundations for learning advanced audio mixing and mastering techniques.",
     ],
   },
@@ -127,9 +126,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sep 2018 - May 2021",
     points: [
-      "Developed an extensive repertoire of classical music pieces.",
+      "Developed an extensive repertoire of 20+ classical music pieces.",
       "Gave quarterly recitals in collaboration with fellow musicians.",
-      "Leaded the school choir along with teachers and gave annual concerts.",
+      "Leaded the school choir along with teachers and gave annual concerts for 200+ people.",
     ],
   },
 ];

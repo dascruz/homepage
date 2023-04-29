@@ -47,20 +47,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a self-driven, independent learner with a keen interest in web
-        engineering and AI, familiar with modern web development technologies
-        and able to quickly learn and adapt to new programming languages and
-        frameworks. At the moment, I'm studying a double major in Computer
-        Science and Business Administration, as well as being a research
-        assistant in an AI research group at Universidad Carlos III de Madrid.
+        I'm a self-driven, independent learner with substantial hands-on experience in software engineering,
+        familiar with modern web development technologies and able to quickly learn and adapt to new
+        programming languages and frameworks.<br></br>
+        At the moment, I'm studying a double degree in Computer
+        Science and Business Administration at Universidad Carlos III de Madrid.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        In my free time I play the piano (I have played it professionally for
-        several years!) and I'm learning to play the guitar. I sometimes take my
+        In my free time I play the piano and I'm learning to play the guitar. I sometimes take my
         camera out and do some photography as well. Also, I'm a fan of indie
         videogames!
       </motion.p>

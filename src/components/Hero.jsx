@@ -21,8 +21,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build web applications <br className="sm:block hidden" />
-            and train neural networks.
+            I build data-focused <br className="sm:block hidden" />
+            web applications.
           </p>
         </div>
       </div>

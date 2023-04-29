@@ -19,7 +19,6 @@ import typescript from "./tech/typescript.png";
 
 import piano from "./company/piano.png";
 import prod from "./company/prod.png";
-import caos from "./company/caos.png";
 import start from "./company/start.png";
 
 import helpmap from "./helpmap.png";
@@ -46,7 +45,6 @@ export {
   typescript,
   piano,
   prod,
-  caos,
   start,
   helpmap,
   mario,
