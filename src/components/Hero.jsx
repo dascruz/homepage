@@ -21,7 +21,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build data-focused <br className="sm:block hidden" />
+            I build data-driven<br className="sm:block hidden" />
             web applications.
           </p>
         </div>
